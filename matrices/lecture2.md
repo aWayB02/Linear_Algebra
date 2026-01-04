@@ -109,3 +109,26 @@ C =
   72 & 99 \\
 \end{pmatrix}
 $$
+
+> Умножение матриц не коммутативно: $AB \neq BA$
+
+### Транспонирование матриц
+
+Для любой матрицы $A$ символом $A^T$ будем обозначать матрицу, у которой первой, второй, $\dots$ строками являются первый, второй, $\dots$ столбцы матрицы $A$  
+  
+$$
+A = 
+\begin{pmatrix}
+  a_{11} & a_{12} & \cdots & a_{1n} \\
+  a_{21} & a_{22} & \cdots & a_{2n} \\
+  \cdots & \cdots & \cdots & \cdots \\
+  a_{m1} & a_{m2} & \cdots & a_{mn}
+\end{pmatrix} \\
+A^T = 
+\begin{pmatrix}
+  a_{11} & a_{21} & \cdots & a_{m1} \\
+  a_{12} & a_{22} & \cdots & a_{m2} \\
+  \cdots & \cdots & \cdots & \cdots \\
+  a_{1n} & a_{2n} & \cdots & a_{mn}
+\end{pmatrix}
+$$
