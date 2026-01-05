@@ -132,3 +132,16 @@ A^T =
   a_{1n} & a_{2n} & \cdots & a_{mn}
 \end{pmatrix}
 $$
+
+Например:  
+  
+$$
+\begin{pmatrix}
+  1 & 2 \\
+  3 & 4 \\
+\end{pmatrix}^T = 
+\begin{pmatrix}
+  1 & 3 \\
+  2 & 4 \\
+\end{pmatrix}
+$$
